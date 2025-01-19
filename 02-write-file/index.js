@@ -30,7 +30,8 @@ rl.on('line', (input) => {
         //write the entered text to the file
         writeStream.write(input + '\n');
         // wait for other input
-        rl.prompt();
+        
+        // rl.prompt();
     }
 });
 
